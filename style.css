@@ -130,6 +130,34 @@ body {
   transform: scale(1.05);
 }
 
+i {
+  font-size: 4rem;
+}
 .content-about {
   font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.col-md-6,
+small {
+  font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.service-section {
+  background-color: #5b606488;
+}
+
+.service-section p,
+h1 {
+  font-family: "Baloo Paaji 2", sans-serif;
+}
+
+.col-md-3 {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.col-md-3:hover {
+  transform: scale(1.05);
 }
