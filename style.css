@@ -96,3 +96,40 @@ body {
   /* font-size:  3rem; */
   color: rgba(255, 255, 255, 0.616);
 }
+
+.corner-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.corner-btn:hover {
+  background-color: #ffc107; /* darker yellow on hover */
+}
+
+.about-section {
+  background-color: #5b606488;
+  /* Optional padding top and bottom handled by py-5 in class */
+}
+
+.about-section img {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.about-section img:hover {
+  transform: scale(1.05);
+}
+
+.content-about {
+  font-family: "Baloo Paaji 2", sans-serif;
+}
