@@ -32,7 +32,7 @@ body {
 }
 .navbar {
   font-family: "Roboto", sans-serif;
-  background-color: rgba(255, 255, 255, 0.493);
+  background-color: rgba(255, 255, 255, 0.486);
 }
 
 .navbar-nav .nav-link {
@@ -48,7 +48,7 @@ body {
 }
 
 .navbar-brand:hover {
-  text-shadow: 0 0 10px #ffd700, 0 0 20px #ffaa00;
+  text-shadow: 0 0 10px #000000, 0 0 20px #ffaa00;
 }
 
 .navbar-nav .nav-link::after {
@@ -60,7 +60,7 @@ body {
   transform-origin: center;
   width: 100%;
   height: 2px;
-  background-color: #ffbf00;
+  background-color: #000000;
   transition: transform 0.3s ease;
 }
 
