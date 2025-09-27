@@ -161,3 +161,23 @@ h1 {
 .col-md-3:hover {
   transform: scale(1.05);
 }
+
+.tool-section {
+  background-color: #5b606488;
+}
+
+.col-md-4:hover {
+  transform: scale(1.05);
+}
+
+/*  */
+.tool-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.tool-image-card img {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
