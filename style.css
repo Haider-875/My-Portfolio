@@ -115,7 +115,7 @@ body {
 }
 
 .about-section {
-  background-color: #5b606488;
+  background-color: #8a8c8d88;
   /* Optional padding top and bottom handled by py-5 in class */
 }
 
@@ -186,4 +186,12 @@ h1 {
 }
 .html {
   color: rgba(230, 100, 14, 0.952);
+}
+
+.feature-section {
+  background-color: #8a8c8d88;
+}
+
+.col h1 small {
+  font-family: "Baloo Paaji 2", sans-serif;
 }
